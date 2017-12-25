@@ -1,0 +1,35 @@
+.ub {
+    display:flex;
+    position: relative;
+}
+.ub-ac {
+    align-items: center;
+}
+.ub-f1 {
+    position: relative;
+    flex:1;
+}
+.ub-pc {
+    justify-content:center;
+}
+.header-wraper{
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index: 99999;
+    background-color: blue;
+    height:1.2rem;
+}
+.left,.right{
+    width:1.2rem;
+}
+.center{
+    color:#fff;
+}
+.back{
+    background-image: url(./back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 36%;
+}
